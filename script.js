@@ -44,10 +44,10 @@ console.log(username === "admin" && parolaCorecta);
 
 // Condiție cu valori numerice:
 
-let temperatura = 22;
+let temperaturaDoi = 22;
 let umiditate = 50;
 
-console.log(temperatura >= 20 && umiditate < 60);
+console.log(temperaturaDoi >= 20 && umiditate < 60);
 
 // Verificare dacă ambele variabile sunt diferite de zero:
 
