@@ -53,3 +53,33 @@ console.log(temperaturaDoi >= 20 && umiditate < 60);
 
 let x = 5;
 let y = 10;
+
+// Verificare dacă ambele condiții sunt adevărate:
+
+let variantaUnu = 10;
+let variantaDoi = 20;
+console.log(variantaUnu > 5 && variantaDoi < 30);
+
+// Verificare dacă ambele variabile boolean sunt true:
+
+let esteAdult = true;
+let arePermis = false;
+console.log(esteAdult && arePermis);
+
+// Într-un sistem de autentificare simplificat:
+
+let name = "admin";
+let parola = true;
+console.log(name === "admin" && parola);
+
+// Verificare dacă o persoană are peste 18 ani și are permis de conducere:
+
+let varsta = 20;
+let detinePermis = true;
+console.log(varsta >= 18 && detinePermis);
+
+// Combinație de condiții:
+
+let temperatură = 25;
+let atmosfera = "înnorat";
+console.log(temperatură > 20 && atmosfera === "înnorat");
